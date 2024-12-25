@@ -1,2 +1,211 @@
-# anicetoestevam.github.io
-Index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aniceto Estevam - Profissional de Dados e Programação</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJrYWeXjF8KXPUa6dLwMyq0D6Vrjkq6FyyMKTkFk5l9IFR0lMvm4mEK9T1+9" crossorigin="anonymous">
+
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Montserrat", sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    /* Estilos principais */
+    .main-content {
+      margin-left: 0;
+      padding: 20px;
+      text-align: center; /* Centraliza o conteúdo principal */
+    }
+
+    /* Seção de Cabeçalho */
+    header {
+      background-color: #333;
+      color: white;
+      padding: 100px 0;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+
+    header p {
+      font-size: 1.5rem;
+    }
+
+    header img {
+      border-radius: 50%;
+      width: 150px;
+      margin-top: 20px;
+    }
+
+    header .button {
+      background-color: #f2f2f2;
+      padding: 12px 30px;
+      font-size: 16px;
+      color: #333;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+    }
+
+    header .button:hover {
+      background-color: #ddd;
+    }
+
+    /* Estilo para a seção de Educação */
+    .educacao, .certificados {
+      background-color: #f9f9f9;
+      padding: 50px 0;
+    }
+
+    .educacao h3, .certificados h3 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+    }
+
+    .educacao p, .certificados p {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    .certificados .certificado {
+      margin-bottom: 20px;
+    }
+
+    .certificados .certificado h4 {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+
+    .certificados .certificado p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    /* Efeito para centralizar conteúdo */
+    .content-wrapper {
+      text-align: center;
+    }
+
+    /* Estilo do Rodapé */
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    footer i {
+      font-size: 24px;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    footer i:hover {
+      color: #ddd;
+    }
+
+    footer p {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Conteúdo Principal -->
+  <div class="main-content">
+    <!-- Seção de Cabeçalho -->
+    <header id="home">
+      <h1>Aniceto Estevam</h1>
+      <p>Profissional de Dados e Programação</p>
+      <img src="https://via.placeholder.com/150" alt="Imagem de Perfil">
+      <button class="button"><i class="fa fa-download"></i> Baixar Portfólio</button>
+    </header>
+
+    <!-- Seção de Educação -->
+    <section id="educacao" class="educacao">
+      <div class="container">
+        <h3>Educação</h3>
+        <div class="row">
+          <div class="col-md-12 content-wrapper">
+            <p><strong>Graduado Bacharel em Ciências e Tecnologia Mecânica</strong></p>
+            <p>Universidade Federal do Rio Grande do Norte (UFRN) - jun de 2014 - jun de 2018</p>
+          </div>
+          <div class="col-md-12 content-wrapper">
+            <p><strong>Graduado Técnico em Biocombustíveis</strong></p>
+            <p>Instituto Federal do Rio Grande do Norte (IFRN) - jan de 2010 - dez de 2013</p>
+          </div>
+          <div class="col-md-12 content-wrapper">
+            <p><strong>Graduando em Licenciatura em Computação</strong></p>
+            <p>Universidade Federal Rural do Semi-Árido (UFERSA) - Agosto de 2024 - até o momento</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Meus Certificados -->
+    <section id="certificados" class="certificados">
+      <div class="container">
+        <h3>Meus Certificados</h3>
+        <div class="row">
+          <div class="col-md-12 content-wrapper">
+            <p><strong>Google AI Essentials</strong> - 2024</p>
+            <p><strong>Bootcamp Nexa - Machine Learning para Iniciantes na AWS</strong> - 2024</p>
+            <p><strong>Santander 2024 - Preparatório Certificação AWS</strong> - 2024</p>
+            <p><strong>Ciência da Computação Harvard No Brasil by Potência Tech</strong> - 2024</p>
+            <p><strong>Certificado Profissional de Análise de Dados do Google</strong> - 2024</p>
+            <p><strong>Trilha Digital | Coders 24 | Data Science</strong> - 2024</p>
+            <p><strong>Trilha Digital | Coders 24 | Back End</strong> - 2024</p>
+            <p><strong>Descubra a Nuvem em AWS by LocalizaLabs</strong> - 2023</p>
+            <p><strong>Santander Bootcamp Cibersegurança</strong> - 2023</p>
+            <p><strong>Bootcamp || Potência Tech by iFood - Ciência de Dados</strong> - 2023</p>
+            <p><strong>Banco de Dados</strong> - 2023</p>
+            <p><strong>Bootcamp || Desenvolvedor Python</strong> - 2023</p>
+            <p><strong>Pacote Office 2016 (Word, Excel, PowerPoint)</strong> - 2023</p>
+            <p><strong>Minicamp || Programação Básica</strong> - 2023</p>
+            <p><strong>Introduction to Python</strong> - 2023</p>
+            <p><strong>Formação Cybersecurity Specialist</strong> - 2022</p>
+            <p><strong>Matemática Financeira</strong> - 2022</p>
+            <p><strong>Minicamp || Cloud & Cybersecurity</strong> - 2022</p>
+            <p><strong>Dominando HP12C</strong> - 2022</p>
+            <p><strong>Aprenda a investir em ETFs</strong> - 2022</p>
+            <p><strong>Desmistificando os COEs</strong> - 2022</p>
+            <p><strong>Dominando o Linkedin</strong> - 2022</p>
+            <p><strong>Contabilidade Básica</strong> - 2022</p>
+            <p><strong>Contabilidade Comercial</strong> - 2022</p>
+            <p><strong>Direito Constitucional</strong> - 2020</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <div>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="mailto:anicetoestevam@example.com"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p>© 2024 Aniceto Estevam. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0M8V4kK9gYgg69cez8dxAhc8pR9jbR+J2KGoIt5l4lMQ48z9" crossorigin="anonymous"></script>
+</body>
+</html>
