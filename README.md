@@ -201,7 +201,7 @@
         <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
         <a href="mailto:anicetoestevam@example.com"><i class="fas fa-envelope"></i></a>
       </div>
-      <p>© 2024 Aniceto Estevam. Todos os direitos reservados.</p>
+      <p>© 2025 Aniceto Estevam. Todos os direitos reservados.</p>
     </footer>
   </div>
 
